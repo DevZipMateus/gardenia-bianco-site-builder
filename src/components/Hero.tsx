@@ -1,10 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { Instagram } from "lucide-react";
+import heroBackground from "@/assets/hero-background.jpg";
 
 const Hero = () => {
   return (
     <section id="inicio" className="relative min-h-screen flex items-center pt-20">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/90 to-dark-brown -z-10" />
+      {/* Background image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat -z-10"
+        style={{ backgroundImage: `url(${heroBackground})` }}
+      />
+      {/* Overlay para garantir contraste */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary/85 to-dark-brown/90 -z-10" />
       
       <div className="container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto text-center space-y-8">
