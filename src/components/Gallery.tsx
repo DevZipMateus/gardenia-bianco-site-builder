@@ -25,6 +25,7 @@ import midia13 from "@/assets/gallery/midia_13.png";
 import midia14 from "@/assets/gallery/midia_14.png";
 import midia15 from "@/assets/gallery/midia_15.png";
 import scrubFeminino from "@/assets/gallery/scrub_feminino.jpg";
+import scrubMasculino from "@/assets/gallery/scrub_masculino.jpg";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -40,6 +41,7 @@ const Gallery = () => {
     { src: midia14, alt: "Jaleco modelo Antonin - design moderno" },
     { src: midia15, alt: "Nossos clientes satisfeitos" },
     { src: scrubFeminino, alt: "Scrub feminino slim - modelagem exclusiva" },
+    { src: scrubMasculino, alt: "Scrub masculino - conforto e estilo profissional" },
   ];
 
   return (
