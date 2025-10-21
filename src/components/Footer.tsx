@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone, Instagram } from "lucide-react";
 
 const Footer = () => {
@@ -42,6 +43,12 @@ const Footer = () => {
               >
                 Início
               </button>
+              <Link
+                to="/vitrine"
+                className="block text-primary-foreground/80 hover:text-accent transition-colors"
+              >
+                Vitrine
+              </Link>
               <button
                 onClick={() => scrollToSection("sobre")}
                 className="block text-primary-foreground/80 hover:text-accent transition-colors"

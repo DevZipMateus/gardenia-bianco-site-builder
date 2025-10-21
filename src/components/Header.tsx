@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
@@ -47,6 +48,12 @@ const Header = () => {
             >
               Início
             </button>
+            <Link
+              to="/vitrine"
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Vitrine
+            </Link>
             <button
               onClick={() => scrollToSection("sobre")}
               className="text-foreground hover:text-primary transition-colors"
