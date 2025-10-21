@@ -45,14 +45,14 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="galeria" className="py-24 bg-background">
+    <section id="galeria" className="py-12 md:py-20 lg:py-24 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 md:mb-6">
             Nossa galeria
           </h2>
-          <div className="w-24 h-1 bg-accent mx-auto mb-6" />
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <div className="w-20 md:w-24 h-1 bg-accent mx-auto mb-4 md:mb-6" />
+          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
             Confira nossos modelos exclusivos e a qualidade dos nossos produtos
           </p>
         </div>
@@ -74,7 +74,7 @@ const Gallery = () => {
           >
             <CarouselContent className="-ml-2 md:-ml-4">
               {images.map((image, index) => (
-                <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={index} className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
                     <Dialog>
                       <DialogTrigger asChild>
@@ -91,8 +91,8 @@ const Gallery = () => {
                           </CardContent>
                         </Card>
                       </DialogTrigger>
-                      <DialogContent className="max-w-4xl w-full p-0 bg-transparent border-0">
-                        <div className="relative w-full h-[80vh] flex items-center justify-center">
+                      <DialogContent className="max-w-[95vw] md:max-w-4xl w-full p-2 md:p-4 bg-transparent border-0">
+                        <div className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center">
                           <img
                             src={image.src}
                             alt={image.alt}
@@ -110,8 +110,8 @@ const Gallery = () => {
           </Carousel>
         </div>
 
-        <div className="mt-12 text-center">
-          <p className="text-muted-foreground">
+        <div className="mt-8 md:mt-12 text-center">
+          <p className="text-sm md:text-base text-muted-foreground px-4">
             Deslize para ver mais modelos ou aguarde a troca automática
           </p>
         </div>

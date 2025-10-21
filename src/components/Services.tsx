@@ -21,29 +21,29 @@ const Services = () => {
   ];
 
   return (
-    <section id="servicos" className="py-24 bg-muted/50">
+    <section id="servicos" className="py-12 md:py-20 lg:py-24 bg-muted/50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 md:mb-6">
             Nossos serviços
           </h2>
-          <div className="w-24 h-1 bg-accent mx-auto mb-6" />
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <div className="w-20 md:w-24 h-1 bg-accent mx-auto mb-4 md:mb-6" />
+          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
             Criação e produção de vestimentas profissionais com design exclusivo e acabamento impecável
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
           {services.map((service, index) => (
             <Card key={index} className="border-border hover:shadow-medium transition-all duration-300 bg-card">
-              <CardHeader>
-                <div className="w-16 h-16 bg-accent/10 rounded-2xl flex items-center justify-center mb-4">
-                  <service.icon className="w-8 h-8 text-accent" />
+              <CardHeader className="p-5 md:p-6">
+                <div className="w-14 h-14 md:w-16 md:h-16 bg-accent/10 rounded-2xl flex items-center justify-center mb-3 md:mb-4">
+                  <service.icon className="w-7 h-7 md:w-8 md:h-8 text-accent" />
                 </div>
-                <CardTitle className="text-2xl text-primary">{service.title}</CardTitle>
+                <CardTitle className="text-xl md:text-2xl text-primary">{service.title}</CardTitle>
               </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base leading-relaxed text-foreground/70">
+              <CardContent className="p-5 md:p-6 pt-0">
+                <CardDescription className="text-sm md:text-base leading-relaxed text-foreground/70">
                   {service.description}
                 </CardDescription>
               </CardContent>
@@ -51,12 +51,12 @@ const Services = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <div className="bg-card rounded-2xl p-8 max-w-3xl mx-auto shadow-soft">
-            <h3 className="text-2xl font-semibold text-primary mb-4">
+        <div className="mt-12 md:mt-16 text-center">
+          <div className="bg-card rounded-2xl p-6 md:p-8 max-w-3xl mx-auto shadow-soft">
+            <h3 className="text-xl md:text-2xl font-semibold text-primary mb-3 md:mb-4">
               Atendimento personalizado
             </h3>
-            <p className="text-foreground/80 leading-relaxed">
+            <p className="text-sm md:text-base text-foreground/80 leading-relaxed">
               Trabalhamos sob agendamento para garantir atenção exclusiva a cada cliente. Entre em contato para agendar sua visita e conhecer nossos produtos e serviços.
             </p>
           </div>

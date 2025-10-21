@@ -36,59 +36,59 @@ const Footer = () => {
 
   return (
     <footer className="bg-primary text-primary-foreground">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid md:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 py-8 md:py-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {/* Logo e Descrição */}
-          <div className="md:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="Gardênia Bianco RS" className="h-12 w-auto" />
-              <span className="font-semibold text-lg">Gardênia Bianco RS</span>
+          <div className="sm:col-span-2">
+            <div className="flex items-center gap-2 md:gap-3 mb-3 md:mb-4">
+              <img src="/logo.png" alt="Gardênia Bianco RS" className="h-10 md:h-12 w-auto" />
+              <span className="font-semibold text-base md:text-lg">Gardênia Bianco RS</span>
             </div>
-            <p className="text-primary-foreground/80 leading-relaxed mb-4">
+            <p className="text-sm md:text-base text-primary-foreground/80 leading-relaxed mb-3 md:mb-4">
               Design exclusivo em moda profissional. Jalecos e scrubs personalizados com qualidade premium para profissionais que buscam estilo e conforto.
             </p>
-            <p className="text-sm text-primary-foreground/70">
+            <p className="text-xs md:text-sm text-primary-foreground/70">
               CNPJ: 23.041.024/0001-94
             </p>
           </div>
 
           {/* Links Rápidos */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-accent">Links rápidos</h3>
+            <h3 className="font-semibold text-base md:text-lg mb-3 md:mb-4 text-accent">Links rápidos</h3>
             <nav className="space-y-2">
               <button
                 onClick={() => scrollToSection("inicio")}
-                className="block text-primary-foreground/80 hover:text-accent transition-colors"
+                className="block text-sm md:text-base text-primary-foreground/80 hover:text-accent transition-colors"
               >
                 Início
               </button>
               <Link
                 to="/vitrine"
-                className="block text-primary-foreground/80 hover:text-accent transition-colors"
+                className="block text-sm md:text-base text-primary-foreground/80 hover:text-accent transition-colors"
               >
                 Vitrine
               </Link>
               <button
                 onClick={() => scrollToSection("sobre")}
-                className="block text-primary-foreground/80 hover:text-accent transition-colors"
+                className="block text-sm md:text-base text-primary-foreground/80 hover:text-accent transition-colors"
               >
                 Sobre
               </button>
               <button
                 onClick={() => scrollToSection("servicos")}
-                className="block text-primary-foreground/80 hover:text-accent transition-colors"
+                className="block text-sm md:text-base text-primary-foreground/80 hover:text-accent transition-colors"
               >
                 Serviços
               </button>
               <button
                 onClick={() => scrollToSection("galeria")}
-                className="block text-primary-foreground/80 hover:text-accent transition-colors"
+                className="block text-sm md:text-base text-primary-foreground/80 hover:text-accent transition-colors"
               >
                 Galeria
               </button>
               <button
                 onClick={() => scrollToSection("contato")}
-                className="block text-primary-foreground/80 hover:text-accent transition-colors"
+                className="block text-sm md:text-base text-primary-foreground/80 hover:text-accent transition-colors"
               >
                 Contato
               </button>
@@ -97,27 +97,27 @@ const Footer = () => {
 
           {/* Contato */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-accent">Contato</h3>
-            <div className="space-y-3">
+            <h3 className="font-semibold text-base md:text-lg mb-3 md:mb-4 text-accent">Contato</h3>
+            <div className="space-y-2 md:space-y-3">
               <a
                 href="https://wa.me/5555991277889"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start gap-2 text-primary-foreground/80 hover:text-accent transition-colors"
               >
-                <Phone className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span className="text-sm">(55) 99127-7889</span>
+                <Phone className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0 mt-0.5" />
+                <span className="text-xs md:text-sm">(55) 99127-7889</span>
               </a>
               <a
                 href="mailto:gardeniabiancors.designdemoda@gmail.com"
                 className="flex items-start gap-2 text-primary-foreground/80 hover:text-accent transition-colors"
               >
-                <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span className="text-sm break-all">gardeniabiancors.designdemoda@gmail.com</span>
+                <Mail className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0 mt-0.5" />
+                <span className="text-xs md:text-sm break-all">gardeniabiancors.designdemoda@gmail.com</span>
               </a>
               <div className="flex items-start gap-2 text-primary-foreground/80">
-                <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span className="text-sm">
+                <MapPin className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0 mt-0.5" />
+                <span className="text-xs md:text-sm">
                   Av. Prefeito Evandro Behr, 7056<br />
                   Sala 30 - Centro Comercial Camobi
                 </span>
@@ -128,16 +128,16 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-primary-foreground/80 hover:text-accent transition-colors"
               >
-                <Instagram className="w-5 h-5" />
-                <span className="text-sm">@gardeniabiancodesignjalecosrs</span>
+                <Instagram className="w-4 h-4 md:w-5 md:h-5" />
+                <span className="text-xs md:text-sm break-all">@gardeniabiancodesignjalecosrs</span>
               </a>
             </div>
           </div>
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-          <p className="text-sm text-primary-foreground/70">
+        <div className="border-t border-primary-foreground/20 mt-6 md:mt-8 pt-6 md:pt-8 text-center">
+          <p className="text-xs md:text-sm text-primary-foreground/70">
             © {new Date().getFullYear()} Gardênia Bianco RS. Todos os direitos reservados.
           </p>
         </div>
