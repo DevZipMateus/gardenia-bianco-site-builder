@@ -24,7 +24,7 @@ const Hero = () => {
             </h2>
           </div>
 
-          <p className="text-base sm:text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed px-4">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed px-4">
             Vestimentas criadas com paixão por uma designer de moda gaúcha, voltadas para profissionais que buscam estilo e conforto no trabalho.
           </p>
 
