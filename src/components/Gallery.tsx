@@ -26,6 +26,7 @@ import midia15 from "@/assets/gallery/midia_15.png";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  // Gallery atualizada - imagem do cliente com scrub azul removida
 
   const images = [
     { src: midia7, alt: "Jaleco modelo Johana - detalhes e acabamento" },
