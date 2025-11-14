@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Fonte Virtual - Configuração */
+@font-face {
+  font-family: 'Virtual';
+  src: url('/fonts/Virtual.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
 All colors MUST be HSL.
 */
@@ -70,5 +78,14 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Virtual', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Virtual', sans-serif;
+  }
+  
+  button {
+    font-family: 'Virtual', sans-serif;
   }
 }
