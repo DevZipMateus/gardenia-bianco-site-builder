@@ -30,7 +30,7 @@ const Hero = () => {
             Vestimentas criadas com paixão por uma designer de moda gaúcha, voltadas para profissionais que buscam estilo e conforto no trabalho.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center pt-4 px-4">
+          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center pt-8 md:pt-10 px-4">
             <a href="https://wa.me/5555991277889" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
               <Button size="lg" variant="secondary" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8">
                 Solicite seu orçamento
