@@ -79,7 +79,7 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
     font-family: 'Virtual', sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     line-height: 1.8;
   }
   
