@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Instagram } from "lucide-react";
-import heroBackground from "@/assets/hero-background-jalecos.jpeg";
+import heroBackground from "@/assets/hero-background-jalecos-sul.jpg";
 
 const Hero = () => {
   return (
