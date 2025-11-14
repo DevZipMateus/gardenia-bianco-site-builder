@@ -29,6 +29,13 @@ import jalecoFemininoAntonella from "@/assets/gallery/jaleco_feminino_antonella.
 import jalecoFemininoAstrid from "@/assets/gallery/jaleco_feminino_astrid.jpg";
 import jalecoFemininoAudrey from "@/assets/gallery/jaleco_feminino_audrey.jpg";
 import jalecoFemininoElitza from "@/assets/gallery/jaleco_feminino_elitza.jpg";
+import jalecoFemininoElvira from "@/assets/gallery/jaleco_feminino_elvira.jpg";
+import jalecoFemininoFiorella from "@/assets/gallery/jaleco_feminino_fiorella.jpg";
+import jalecoFemininoHazel from "@/assets/gallery/jaleco_feminino_hazel.jpg";
+import jalecoFemininoIvy from "@/assets/gallery/jaleco_feminino_ivy.jpg";
+import jalecoFemininoKendra from "@/assets/gallery/jaleco_feminino_kendra.jpg";
+import jalecoFemininoKiara from "@/assets/gallery/jaleco_feminino_kiara.jpg";
+import jalecoFemininoVioleta from "@/assets/gallery/jaleco_feminino_violeta.jpg";
 
 // Import images - Masculinos
 import jalecoMasculinoAlbeus from "@/assets/gallery/jaleco_masculino_albeus.png";
@@ -54,6 +61,13 @@ const Gallery = () => {
     { src: jalecoFemininoAstrid, alt: "Jaleco feminino modelo Astrid - estilo profissional" },
     { src: jalecoFemininoAudrey, alt: "Jaleco feminino modelo Audrey - sofisticação clássica" },
     { src: jalecoFemininoElitza, alt: "Jaleco feminino modelo Elitza - charme e praticidade" },
+    { src: jalecoFemininoElvira, alt: "Jaleco feminino modelo Elvira - design moderno em azul marinho" },
+    { src: jalecoFemininoFiorella, alt: "Jaleco feminino modelo Fiorella - elegância em rosé" },
+    { src: jalecoFemininoHazel, alt: "Jaleco feminino modelo Hazel - estilo prático com zíper" },
+    { src: jalecoFemininoIvy, alt: "Jaleco feminino modelo Ivy - sofisticação e versatilidade" },
+    { src: jalecoFemininoKendra, alt: "Jaleco feminino modelo Kendra - linha tradicional slim" },
+    { src: jalecoFemininoKiara, alt: "Jaleco feminino modelo Kiara - clássico atemporal" },
+    { src: jalecoFemininoVioleta, alt: "Jaleco feminino modelo Violeta - detalhes em verde esmeralda" },
   ];
 
   const imagesMasculinos = [
