@@ -24,7 +24,6 @@ import midia12 from "@/assets/gallery/midia_12.png";
 import midia13 from "@/assets/gallery/midia_13.png";
 import midia14 from "@/assets/gallery/midia_14.png";
 import midia15 from "@/assets/gallery/midia_15.png";
-import scrubMasculino from "@/assets/gallery/scrub_masculino.jpg";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -39,7 +38,6 @@ const Gallery = () => {
     { src: midia13, alt: "Jaleco modelo Albeus - conforto e funcionalidade" },
     { src: midia14, alt: "Jaleco modelo Antonin - design moderno" },
     { src: midia15, alt: "Nossos clientes satisfeitos" },
-    { src: scrubMasculino, alt: "Scrub masculino - conforto e estilo profissional" },
   ];
 
   return (
