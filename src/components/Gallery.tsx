@@ -50,6 +50,26 @@ const Gallery = () => {
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
             Confira nossos modelos exclusivos e a qualidade dos nossos produtos
           </p>
+          
+          {/* Banner de Orçamento para Turmas */}
+          <a
+            href="https://wa.me/5555991277889?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20jalecos%20personalizados%20para%20turma."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block max-w-4xl mx-auto mt-8 bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-white rounded-xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+          >
+            <div className="text-center">
+              <p className="text-xl md:text-2xl lg:text-3xl font-bold mb-2">
+                JALECOS PERSONALIZADOS PARA TURMAS
+              </p>
+              <p className="text-base md:text-lg lg:text-xl font-semibold">
+                VALORES COM DESCONTOS ESPECIAIS
+              </p>
+              <p className="text-sm md:text-base mt-3 opacity-90">
+                📱 Clique aqui e solicite seu orçamento via WhatsApp
+              </p>
+            </div>
+          </a>
         </div>
 
         <div className="max-w-6xl mx-auto">
