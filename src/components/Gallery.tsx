@@ -27,6 +27,9 @@ import midia15 from "@/assets/gallery/midia_15.png";
 // Import images - Masculinos
 import jalecoMasculinoAlbeus from "@/assets/gallery/jaleco_masculino_albeus.png";
 import jalecoMasculinoAntonin from "@/assets/gallery/jaleco_masculino_antonin.png";
+import scrubMasculino from "@/assets/gallery/scrub_masculino.jpg";
+import jalecoMasculinoOrion from "@/assets/gallery/jaleco_masculino_orion.jpg";
+import jalecoMasculinoArthemus from "@/assets/gallery/jaleco_masculino_arthemus.jpg";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -45,6 +48,9 @@ const Gallery = () => {
   const imagesMasculinos = [
     { src: jalecoMasculinoAlbeus, alt: "Jaleco masculino modelo Albeus - conforto e estilo" },
     { src: jalecoMasculinoAntonin, alt: "Jaleco masculino modelo Antonin - design profissional" },
+    { src: scrubMasculino, alt: "Scrub masculino clássico - praticidade e conforto" },
+    { src: jalecoMasculinoOrion, alt: "Jaleco masculino modelo Orion - estilo moderno" },
+    { src: jalecoMasculinoArthemus, alt: "Jaleco masculino modelo Arthemus - elegância profissional" },
   ];
 
   return (
