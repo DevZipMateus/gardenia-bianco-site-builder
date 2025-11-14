@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Virtual', 'Arial', 'sans-serif'],
-        virtual: ['Virtual', 'Arial', 'sans-serif'],
+        sans: ['Virtual', 'sans-serif'],
+        virtual: ['Virtual', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

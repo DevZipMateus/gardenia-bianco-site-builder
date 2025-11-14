@@ -5,11 +5,9 @@
 /* Fonte Virtual - Configuração */
 @font-face {
   font-family: 'Virtual';
-  src: url('/fonts/virtual/Virtual-Regular.otf') format('opentype'),
-       url('/fonts/virtual/Virtual-Regular.ttf') format('truetype');
+  src: url('/fonts/Virtual.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
@@ -80,18 +78,18 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Virtual', Arial, sans-serif;
-    font-size: 30px;
+    font-family: 'Virtual', sans-serif;
+    font-size: 20px;
     line-height: 1.8;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Virtual', Arial, sans-serif;
+    font-family: 'Virtual', sans-serif;
     font-weight: 700;
     margin-bottom: 1.5rem;
   }
   
   button {
-    font-family: 'Virtual', Arial, sans-serif;
+    font-family: 'Virtual', sans-serif;
   }
 }
