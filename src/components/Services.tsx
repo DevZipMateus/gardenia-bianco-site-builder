@@ -54,7 +54,7 @@ const Services = () => {
         <div className="mt-12 md:mt-16 text-center">
           <div className="bg-card rounded-2xl p-6 md:p-8 max-w-3xl mx-auto shadow-soft">
             <h3 className="text-xl md:text-2xl font-semibold text-primary mb-3 md:mb-4">
-              Atendimento personalizado
+              Atendimento Individualizado
             </h3>
             <p className="text-sm md:text-base text-foreground/80 leading-relaxed">
               Trabalhamos sob agendamento para garantir atenção exclusiva a cada cliente. Entre em contato para agendar sua visita e conhecer nossos produtos e serviços.
