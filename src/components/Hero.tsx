@@ -18,15 +18,15 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-12 md:py-20">
         <div className="max-w-4xl mx-auto text-center space-y-6 md:space-y-8">
           <div className="space-y-3 md:space-y-4">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground tracking-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground tracking-tight animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
               Gardênia Bianco RS
             </h1>
-            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 font-light px-4">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 font-light px-4 animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
               Design exclusivo em moda profissional. Jalecos e scrubs personalizados com qualidade premium.
             </h2>
           </div>
 
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed px-4">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed px-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
             Vestimentas criadas com paixão por uma designer de moda gaúcha, voltadas para profissionais que buscam estilo e conforto no trabalho.
           </p>
 
