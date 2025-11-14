@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center pt-8 md:pt-10 px-4">
-            <a href="https://wa.me/5555991277889" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+            <a href="https://wa.me/5555991277889" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Button size="lg" variant="secondary" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8">
                 Solicite seu orçamento
               </Button>
@@ -40,7 +40,8 @@ const Hero = () => {
               href="https://www.instagram.com/gardeniabiancodesignjalecosrs"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto"
+              className="w-full sm:w-auto animate-fade-in"
+              style={{ animationDelay: '0.5s', animationFillMode: 'both' }}
             >
               <Button size="lg" variant="outline" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 bg-white/10 text-primary-foreground border-white/30 hover:bg-white/20">
                 <Instagram className="mr-2 h-4 md:h-5 w-4 md:w-5" />
