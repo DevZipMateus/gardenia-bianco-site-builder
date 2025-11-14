@@ -18,7 +18,6 @@ import Autoplay from "embla-carousel-autoplay";
 import midia7 from "@/assets/gallery/midia_7.jpg";
 import midia8 from "@/assets/gallery/midia_8.jpg";
 import midia9 from "@/assets/gallery/midia_9.jpg";
-import midia10 from "@/assets/gallery/midia_10.jpg";
 import midia11 from "@/assets/gallery/midia_11.jpg";
 import midia12 from "@/assets/gallery/midia_12.png";
 import midia13 from "@/assets/gallery/midia_13.png";
@@ -32,7 +31,6 @@ const Gallery = () => {
     { src: midia7, alt: "Jaleco modelo Johana - detalhes e acabamento" },
     { src: midia8, alt: "Jaleco modelo Lilith - design exclusivo" },
     { src: midia9, alt: "Jaleco modelo Morgana - tecido premium" },
-    { src: midia10, alt: "Jaleco modelo Athena - versatilidade e estilo" },
     { src: midia11, alt: "Jaleco modelo Ellis - detalhes personalizados" },
     { src: midia12, alt: "Jaleco modelo Acácia - elegância profissional" },
     { src: midia13, alt: "Jaleco modelo Albeus - conforto e funcionalidade" },
