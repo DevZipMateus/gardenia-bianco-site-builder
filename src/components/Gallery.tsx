@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/dialog";
 import Autoplay from "embla-carousel-autoplay";
 
-// Import images
+// Import images - Femininos
 import midia7 from "@/assets/gallery/midia_7.jpg";
 import midia8 from "@/assets/gallery/midia_8.jpg";
 import midia9 from "@/assets/gallery/midia_9.jpg";
@@ -24,19 +24,27 @@ import midia13 from "@/assets/gallery/midia_13.png";
 import midia14 from "@/assets/gallery/midia_14.png";
 import midia15 from "@/assets/gallery/midia_15.png";
 
+// Import images - Masculinos
+import jalecoMasculinoAlbeus from "@/assets/gallery/jaleco_masculino_albeus.png";
+import jalecoMasculinoAntonin from "@/assets/gallery/jaleco_masculino_antonin.png";
+
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  // Gallery atualizada - imagem do cliente com scrub azul removida
 
-  const images = [
-    { src: midia7, alt: "Jaleco modelo Johana - detalhes e acabamento" },
-    { src: midia8, alt: "Jaleco modelo Lilith - design exclusivo" },
-    { src: midia9, alt: "Jaleco modelo Morgana - tecido premium" },
-    { src: midia11, alt: "Jaleco modelo Ellis - detalhes personalizados" },
-    { src: midia12, alt: "Jaleco modelo Acácia - elegância profissional" },
-    { src: midia13, alt: "Jaleco modelo Albeus - conforto e funcionalidade" },
-    { src: midia14, alt: "Jaleco modelo Antonin - design moderno" },
+  const imagesFemininos = [
+    { src: midia7, alt: "Jaleco feminino modelo Johana - detalhes e acabamento" },
+    { src: midia8, alt: "Jaleco feminino modelo Lilith - design exclusivo" },
+    { src: midia9, alt: "Jaleco feminino modelo Morgana - tecido premium" },
+    { src: midia11, alt: "Jaleco feminino modelo Ellis - detalhes personalizados" },
+    { src: midia12, alt: "Jaleco feminino modelo Acácia - elegância profissional" },
+    { src: midia13, alt: "Jaleco feminino - conforto e funcionalidade" },
+    { src: midia14, alt: "Jaleco feminino - design moderno" },
     { src: midia15, alt: "Nossos clientes satisfeitos" },
+  ];
+
+  const imagesMasculinos = [
+    { src: jalecoMasculinoAlbeus, alt: "Jaleco masculino modelo Albeus - conforto e estilo" },
+    { src: jalecoMasculinoAntonin, alt: "Jaleco masculino modelo Antonin - design profissional" },
   ];
 
   return (
@@ -72,7 +80,11 @@ const Gallery = () => {
           </a>
         </div>
 
-        <div className="max-w-6xl mx-auto">
+        {/* Seção Jalecos Femininos */}
+        <div className="max-w-6xl mx-auto mb-16">
+          <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
+            Jalecos Femininos
+          </h3>
           <Carousel
             opts={{
               align: "start",
@@ -88,7 +100,64 @@ const Gallery = () => {
             className="w-full"
           >
             <CarouselContent className="-ml-2 md:-ml-4">
-              {images.map((image, index) => (
+              {imagesFemininos.map((image, index) => (
+                <CarouselItem key={index} className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
+                  <div className="p-1">
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <Card 
+                          className="cursor-pointer overflow-hidden hover:shadow-medium transition-all duration-300 border-border"
+                          onClick={() => setSelectedImage(image.src)}
+                        >
+                          <CardContent className="p-0 aspect-[3/4]">
+                            <img
+                              src={image.src}
+                              alt={image.alt}
+                              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                            />
+                          </CardContent>
+                        </Card>
+                      </DialogTrigger>
+                      <DialogContent className="max-w-[95vw] md:max-w-4xl w-full p-2 md:p-4 bg-transparent border-0">
+                        <div className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center">
+                          <img
+                            src={image.src}
+                            alt={image.alt}
+                            className="max-w-full max-h-full object-contain rounded-lg"
+                          />
+                        </div>
+                      </DialogContent>
+                    </Dialog>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden md:flex" />
+            <CarouselNext className="hidden md:flex" />
+          </Carousel>
+        </div>
+
+        {/* Seção Jalecos Masculinos */}
+        <div className="max-w-6xl mx-auto">
+          <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
+            Jalecos Masculinos
+          </h3>
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            plugins={[
+              Autoplay({
+                delay: 3000,
+                stopOnInteraction: false,
+                stopOnMouseEnter: false,
+              }),
+            ]}
+            className="w-full"
+          >
+            <CarouselContent className="-ml-2 md:-ml-4">
+              {imagesMasculinos.map((image, index) => (
                 <CarouselItem key={index} className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
                     <Dialog>
