@@ -4,7 +4,7 @@ import heroBackground from "@/assets/hero-background-jalecos-sul.jpg";
 
 const Hero = () => {
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center pt-16 md:pt-20">
+    <section id="inicio" className="relative min-h-screen flex items-center pt-16 md:pt-20 animate-fade-in">
       {/* Background image */}
       <div 
         className="absolute inset-0 bg-cover bg-top bg-no-repeat -z-10"
