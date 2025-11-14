@@ -7,8 +7,11 @@ const Hero = () => {
     <section id="inicio" className="relative min-h-screen flex items-center pt-16 md:pt-20">
       {/* Background image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat -z-10"
-        style={{ backgroundImage: `url(${heroBackground})` }}
+        className="absolute inset-0 bg-center bg-no-repeat -z-10"
+        style={{ 
+          backgroundImage: `url(${heroBackground})`,
+          backgroundSize: '80%'
+        }}
       />
       {/* Overlay para garantir contraste */}
       <div className="absolute inset-0 bg-black/80 -z-10" />
