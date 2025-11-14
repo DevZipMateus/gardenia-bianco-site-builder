@@ -17,8 +17,8 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 py-12 md:py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 md:p-12 space-y-6 md:space-y-8">
-            <div className="space-y-3 md:space-y-4">
+          <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 md:p-12 space-y-4 md:space-y-6">
+            <div className="space-y-2 md:space-y-3">
               <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground tracking-tight animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
                 Gardênia Bianco RS
               </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
               Vestimentas criadas com paixão por uma designer de moda gaúcha, voltadas para profissionais que buscam estilo e conforto no trabalho.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center pt-8 md:pt-10 px-4">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center pt-4 md:pt-6 px-4">
             <a href="https://wa.me/5555991277889" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Button size="lg" variant="secondary" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8">
                 Solicite seu orçamento
