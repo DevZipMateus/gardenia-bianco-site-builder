@@ -109,11 +109,11 @@ const Footer = () => {
                 <span className="text-xs md:text-sm">(55) 99127-7889</span>
               </a>
               <a
-                href="mailto:gardeniabiancors.designdemoda@gmail.com"
+                href="mailto:gardeniabianco.designjalecosrs@gmail.com"
                 className="flex items-start gap-2 text-primary-foreground/80 hover:text-accent transition-colors"
               >
                 <Mail className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0 mt-0.5" />
-                <span className="text-xs md:text-sm break-all">gardeniabiancors.designdemoda@gmail.com</span>
+                <span className="text-xs md:text-sm break-all">gardeniabianco.designjalecosrs@gmail.com</span>
               </a>
               <div className="flex items-start gap-2 text-primary-foreground/80">
                 <MapPin className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0 mt-0.5" />

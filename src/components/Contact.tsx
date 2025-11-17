@@ -40,7 +40,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="mailto:gardeniabiancors.designdemoda@gmail.com"
+                  href="mailto:gardeniabianco.designjalecosrs@gmail.com"
                   className="flex items-start gap-3 md:gap-4 p-3 md:p-4 rounded-lg hover:bg-muted/50 transition-colors"
                 >
                   <div className="w-10 h-10 md:w-12 md:h-12 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
@@ -49,7 +49,7 @@ const Contact = () => {
                   <div className="min-w-0">
                     <p className="font-medium text-sm md:text-base text-foreground">E-mail</p>
                     <p className="text-xs md:text-sm text-muted-foreground break-all">
-                      gardeniabiancors.designdemoda@gmail.com
+                      gardeniabianco.designjalecosrs@gmail.com
                     </p>
                   </div>
                 </a>
