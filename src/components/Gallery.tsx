@@ -35,6 +35,8 @@ import jalecoFemininoKiara from "@/assets/gallery/jaleco_feminino_kiara.jpg";
 import jalecoFemininoVioleta from "@/assets/gallery/jaleco_feminino_violeta.jpg";
 
 // Import images - Masculinos
+import jalecoMasculinoAlbeus from "@/assets/gallery/jaleco_masculino_albeus.png";
+import jalecoMasculinoAntonin from "@/assets/gallery/jaleco_masculino_antonin.png";
 import jalecoMasculinoOrion from "@/assets/gallery/jaleco_masculino_orion.jpg";
 import jalecoMasculinoArthemus from "@/assets/gallery/jaleco_masculino_arthemus.jpg";
 
@@ -63,6 +65,8 @@ const Gallery = () => {
   ];
 
   const imagesMasculinos = [
+    { src: jalecoMasculinoAlbeus, alt: "Jaleco masculino modelo Albeus - conforto e estilo" },
+    { src: jalecoMasculinoAntonin, alt: "Jaleco masculino modelo Antonin - design profissional" },
     { src: jalecoMasculinoOrion, alt: "Jaleco masculino modelo Orion - estilo moderno" },
     { src: jalecoMasculinoArthemus, alt: "Jaleco masculino modelo Arthemus - elegância profissional" },
   ];
