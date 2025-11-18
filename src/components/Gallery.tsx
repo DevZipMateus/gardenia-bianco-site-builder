@@ -46,6 +46,9 @@ import clienteAventalLyra from "@/assets/gallery/cliente_avental_lyra.jpg";
 import clienteAventalBasic from "@/assets/gallery/cliente_avental_basic.jpg";
 import clienteScrubFeminino from "@/assets/gallery/cliente_scrub_feminino.jpg";
 
+// Import images - Turmas
+import turmaJalecosBrancos from "@/assets/gallery/turma_jalecos_brancos.jpg";
+
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
@@ -82,6 +85,10 @@ const Gallery = () => {
     { src: clienteAventalLyra, alt: "Cliente com avental modelo Lyra em tom bege" },
     { src: clienteAventalBasic, alt: "Cliente com avental Basic branco e preto" },
     { src: clienteScrubFeminino, alt: "Clientes profissionais com scrubs pretos personalizados" },
+  ];
+
+  const imagesTurmas = [
+    { src: turmaJalecosBrancos, alt: "Turma de formandos com jalecos brancos personalizados" },
   ];
 
   return (
@@ -265,6 +272,63 @@ const Gallery = () => {
                               src={image.src}
                               alt={image.alt}
                               className="w-full h-full object-contain bg-muted hover:scale-105 transition-transform duration-300"
+                            />
+                          </CardContent>
+                        </Card>
+                      </DialogTrigger>
+                      <DialogContent className="max-w-[95vw] md:max-w-4xl w-full p-2 md:p-4 bg-transparent border-0">
+                        <div className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center">
+                          <img
+                            src={image.src}
+                            alt={image.alt}
+                            className="max-w-full max-h-full object-contain rounded-lg"
+                          />
+                        </div>
+                      </DialogContent>
+                    </Dialog>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden md:flex" />
+            <CarouselNext className="hidden md:flex" />
+          </Carousel>
+        </div>
+
+        {/* Seção Turmas */}
+        <div className="max-w-6xl mx-auto mt-16">
+          <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
+            Turmas
+          </h3>
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            plugins={[
+              Autoplay({
+                delay: 3000,
+                stopOnInteraction: false,
+                stopOnMouseEnter: false,
+              }),
+            ]}
+            className="w-full"
+          >
+            <CarouselContent className="-ml-2 md:-ml-4">
+              {imagesTurmas.map((image, index) => (
+                <CarouselItem key={index} className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
+                  <div className="p-1">
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <Card 
+                          className="cursor-pointer overflow-hidden hover:shadow-medium transition-all duration-300 border-border"
+                          onClick={() => setSelectedImage(image.src)}
+                        >
+                          <CardContent className="p-0 aspect-[4/3]">
+                            <img
+                              src={image.src}
+                              alt={image.alt}
+                              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                             />
                           </CardContent>
                         </Card>
