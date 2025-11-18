@@ -260,11 +260,11 @@ const Gallery = () => {
                           className="cursor-pointer overflow-hidden hover:shadow-medium transition-all duration-300 border-border"
                           onClick={() => setSelectedImage(image.src)}
                         >
-                          <CardContent className="p-0 aspect-[3/4]">
+                          <CardContent className="p-0 aspect-square">
                             <img
                               src={image.src}
                               alt={image.alt}
-                              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                              className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300"
                             />
                           </CardContent>
                         </Card>
