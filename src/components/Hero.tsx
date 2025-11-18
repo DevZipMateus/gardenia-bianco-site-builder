@@ -13,7 +13,7 @@ const Hero = () => {
         }}
       />
       {/* Overlay para garantir contraste */}
-      <div className="absolute inset-0 bg-black/50 -z-10" />
+      <div className="absolute inset-0 bg-black/65 -z-10" />
       
       <div className="container mx-auto px-4 py-12 md:py-20">
         <div className="max-w-4xl mx-auto text-center space-y-4 md:space-y-6">
