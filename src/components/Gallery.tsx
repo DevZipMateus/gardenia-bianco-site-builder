@@ -46,6 +46,10 @@ import clienteAventalLyra from "@/assets/gallery/cliente_avental_lyra.jpg";
 import clienteAventalBasic from "@/assets/gallery/cliente_avental_basic.jpg";
 import clienteScrubFeminino from "@/assets/gallery/cliente_scrub_feminino.jpg";
 
+// Import images - Aventais
+import aventaisCafeGuardino from "@/assets/gallery/aventais_cafe_guardino.jpg";
+import aventalAzulMarinho from "@/assets/gallery/avental_azul_marinho.jpg";
+
 // Import images - Turmas
 import turmaJalecosBrancos from "@/assets/gallery/turma_jalecos_brancos.jpg";
 
@@ -101,6 +105,8 @@ const Gallery = () => {
   const imagesAventais = [
     { src: clienteAventalLyra, alt: "Cliente com avental modelo Lyra em tom bege" },
     { src: clienteAventalBasic, alt: "Cliente com avental Basic branco e preto" },
+    { src: aventaisCafeGuardino, alt: "Aventais personalizados Café Guardino em preto e bege" },
+    { src: aventalAzulMarinho, alt: "Avental azul marinho com detalhes brancos - frente e costas" },
   ];
 
   const imagesTurmas = [
