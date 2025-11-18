@@ -314,9 +314,9 @@ const Gallery = () => {
             ]}
             className="w-full"
           >
-            <CarouselContent className="-ml-2 md:-ml-4">
+            <CarouselContent className="-ml-2 md:-ml-4 justify-center">
               {imagesTurmas.map((image, index) => (
-                <CarouselItem key={index} className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={index} className="pl-2 md:pl-4 basis-full md:basis-2/3 lg:basis-1/2">
                   <div className="p-1">
                     <Dialog>
                       <DialogTrigger asChild>
