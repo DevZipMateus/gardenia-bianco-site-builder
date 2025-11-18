@@ -444,7 +444,7 @@ const Gallery = () => {
           >
             <CarouselContent className="-ml-2 md:-ml-4 justify-center">
               {imagesPortaJalecos.map((image, index) => (
-                <CarouselItem key={index} className="pl-2 md:pl-4 basis-full md:basis-2/3 lg:basis-1/2">
+                <CarouselItem key={index} className="pl-2 md:pl-4 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
                   <div className="p-1">
                     <Dialog>
                       <DialogTrigger asChild>
