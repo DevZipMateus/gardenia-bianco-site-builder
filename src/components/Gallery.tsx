@@ -22,7 +22,6 @@ import midia11 from "@/assets/gallery/midia_11.jpg";
 import midia12 from "@/assets/gallery/midia_12.png";
 import midia13 from "@/assets/gallery/midia_13.png";
 import midia14 from "@/assets/gallery/midia_14.png";
-import midia15 from "@/assets/gallery/midia_15.png";
 import jalecoFemininoAgnes from "@/assets/gallery/jaleco_feminino_agnes.jpg";
 import jalecoFemininoAllice from "@/assets/gallery/jaleco_feminino_allice.jpg";
 import jalecoFemininoAntonella from "@/assets/gallery/jaleco_feminino_antonella.jpg";
@@ -54,7 +53,6 @@ const Gallery = () => {
     { src: midia12, alt: "Jaleco feminino modelo Acácia - elegância profissional" },
     { src: midia13, alt: "Jaleco feminino - conforto e funcionalidade" },
     { src: midia14, alt: "Jaleco feminino - design moderno" },
-    { src: midia15, alt: "Nossos clientes satisfeitos" },
     { src: jalecoFemininoAgnes, alt: "Jaleco feminino modelo Agnes - detalhes sofisticados" },
     { src: jalecoFemininoAllice, alt: "Jaleco feminino modelo Allice - elegância e conforto" },
     { src: jalecoFemininoAntonella, alt: "Jaleco feminino modelo Antonella - design único" },
