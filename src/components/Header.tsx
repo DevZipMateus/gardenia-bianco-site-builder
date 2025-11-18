@@ -58,7 +58,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link to="/" className="flex items-center gap-2 md:gap-3">
             <img src="/logo.png" alt="Gardênia Bianco RS" className="h-10 md:h-12 w-auto" />
-            <span className="font-semibold text-sm md:text-lg text-primary hidden sm:inline" style={{ fontFamily: 'Bisney' }}>
+            <span className="font-semibold text-sm md:text-lg text-primary hidden sm:inline" style={{ fontFamily: 'Baby Angel' }}>
               Gardênia Bianco RS
             </span>
           </Link>

@@ -18,6 +18,15 @@
   font-style: normal;
 }
 
+/* Fonte Baby Angel - Configuração */
+@font-face {
+  font-family: 'Baby Angel';
+  src: url('/fonts/Baby_Angel.otf') format('opentype'),
+       url('/fonts/Baby_Angel.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
 All colors MUST be HSL.
 */
