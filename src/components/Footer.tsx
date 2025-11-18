@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="sm:col-span-2">
             <div className="flex items-center gap-2 md:gap-3 mb-3 md:mb-4">
               <img src="/logo.png" alt="Gardênia Bianco RS" className="h-10 md:h-12 w-auto" />
-              <span className="font-semibold text-base md:text-lg" style={{ fontFamily: 'Virtual' }}>Gardênia Bianco RS</span>
+              <span className="font-semibold text-base md:text-lg" style={{ fontFamily: 'Bisney' }}>Gardênia Bianco RS</span>
             </div>
             <p className="text-sm md:text-base text-primary-foreground/80 leading-relaxed mb-3 md:mb-4">
               Design exclusivo em moda profissional. Jalecos e scrubs personalizados com qualidade premium para profissionais que buscam estilo e conforto.
