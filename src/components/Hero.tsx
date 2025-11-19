@@ -4,17 +4,13 @@ import heroBackground from "@/assets/hero-background-jalecos-sul.jpg";
 
 const Hero = () => {
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center pt-16 md:pt-20 animate-fade-in">
-      {/* Background image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ 
-          backgroundImage: `url(${heroBackground})`,
-          zIndex: -20
-        }}
-      />
-      {/* Overlay para garantir contraste */}
-      <div className="absolute inset-0 bg-black/65" style={{ zIndex: -10 }} />
+    <section 
+      id="inicio" 
+      className="relative min-h-screen flex items-center pt-16 md:pt-20 animate-fade-in bg-cover bg-center bg-no-repeat"
+      style={{ 
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${heroBackground})`
+      }}
+    >
       
       <div className="container mx-auto px-4 py-12 md:py-20">
         <div className="max-w-4xl mx-auto text-center space-y-4 md:space-y-6">
