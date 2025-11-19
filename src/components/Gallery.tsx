@@ -115,6 +115,7 @@ const Gallery = () => {
     { src: aventalAzulMarinho, alt: "Avental azul marinho com detalhes brancos - frente e costas" },
   ];
 
+  // Fotos de turmas de formandos e equipes profissionais
   const imagesTurmas = [
     { src: turmaJalecosBrancos, alt: "Turma de formandos com jalecos brancos personalizados" },
     { src: turmaFamiliaFelin, alt: "Família Felin - turma com jalecos personalizados Gardenia Bianco" },
