@@ -52,6 +52,12 @@ import aventalAzulMarinho from "@/assets/gallery/avental_azul_marinho.jpg";
 
 // Import images - Turmas
 import turmaJalecosBrancos from "@/assets/gallery/turma_jalecos_brancos.jpg";
+import turmaFamiliaFelin from "@/assets/gallery/turma_familia_felin.jpg";
+import turmaFamiliaFelinCorredor from "@/assets/gallery/turma_familia_felin_corredor.jpg";
+import turmaMedicinaUfsm from "@/assets/gallery/turma_medicina_ufsm.jpg";
+import turmaGardeniaBianco from "@/assets/gallery/turma_gardenia_bianco.jpg";
+import turmaClinicaAzul from "@/assets/gallery/turma_clinica_azul.jpg";
+import turmaMedicinaUfn from "@/assets/gallery/turma_medicina_ufn.jpg";
 
 // Import images - Jalecos Infantis
 import jalecosInfantis from "@/assets/gallery/jalecos_infantis.jpg";
@@ -111,6 +117,12 @@ const Gallery = () => {
 
   const imagesTurmas = [
     { src: turmaJalecosBrancos, alt: "Turma de formandos com jalecos brancos personalizados" },
+    { src: turmaFamiliaFelin, alt: "Família Felin - turma com jalecos personalizados Gardenia Bianco" },
+    { src: turmaFamiliaFelinCorredor, alt: "Equipe de profissionais com jalecos elegantes" },
+    { src: turmaMedicinaUfsm, alt: "Turma Medicina UFSM - formandos com jalecos brancos" },
+    { src: turmaGardeniaBianco, alt: "Turma Gardenia Bianco - jalecos brancos para formatura" },
+    { src: turmaClinicaAzul, alt: "Equipe de clínica com jalecos azuis personalizados" },
+    { src: turmaMedicinaUfn, alt: "Turma Medicina UFN - Universidade Franciscana" },
   ];
 
   const imagesInfantis = [
