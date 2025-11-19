@@ -55,6 +55,16 @@ import clienteVogel from "@/assets/gallery/cliente_vogel.jpg";
 import clienteJalecosCinzaRosa from "@/assets/gallery/cliente_jalecos_cinza_rosa.jpg";
 import clienteNinhoEquipe from "@/assets/gallery/cliente_ninho_equipe.jpg";
 import clienteDraEstella from "@/assets/gallery/cliente_dra_estella.jpg";
+import clienteCasalFisioterapia from "@/assets/gallery/cliente_casal_fisioterapia.jpg";
+import clienteCamilaBrendler from "@/assets/gallery/cliente_camila_brendler.jpg";
+import clienteJalecoCinza from "@/assets/gallery/cliente_jaleco_cinza.jpg";
+import clienteMedicosCasal from "@/assets/gallery/cliente_medicos_casal.jpg";
+import clienteEsteticaRevigora from "@/assets/gallery/cliente_estetica_revigora.jpg";
+import clienteOdontopediatria from "@/assets/gallery/cliente_odontopediatria.jpg";
+import clienteJalecosInfantisFamilia from "@/assets/gallery/cliente_jalecos_infantis_familia.jpg";
+import clienteMedicinaUfsm from "@/assets/gallery/cliente_medicina_ufsm.jpg";
+import clientePabloBucco from "@/assets/gallery/cliente_pablo_bucco.jpg";
+import clienteEsteticaMulher from "@/assets/gallery/cliente_estetica_mulher.jpg";
 
 // Import images - Aventais
 import aventaisCafeGuardino from "@/assets/gallery/aventais_cafe_guardino.jpg";
@@ -128,6 +138,16 @@ const Gallery = () => {
     { src: clienteJalecosCinzaRosa, alt: "Jalecos personalizados em cinza e rosa para clínica" },
     { src: clienteNinhoEquipe, alt: "Equipe completa Hospital Veterinário Ninho com jalecos brancos" },
     { src: clienteDraEstella, alt: "Dra. Estella com jaleco bege personalizado Gardenia Bianco" },
+    { src: clienteCasalFisioterapia, alt: "Casal de fisioterapeutas com uniformes personalizados" },
+    { src: clienteCamilaBrendler, alt: "Camila Brendler com jaleco preto personalizado" },
+    { src: clienteJalecoCinza, alt: "Profissional da saúde com jaleco cinza Gardenia Bianco" },
+    { src: clienteMedicosCasal, alt: "Casal de médicos com jalecos brancos personalizados" },
+    { src: clienteEsteticaRevigora, alt: "Equipe Clínica Revigora com uniformes rosa personalizados" },
+    { src: clienteOdontopediatria, alt: "Dr. Guilherme - Odontopediatria com jaleco azul claro" },
+    { src: clienteJalecosInfantisFamilia, alt: "Família com jalecos infantis personalizados" },
+    { src: clienteMedicinaUfsm, alt: "Estudante de Medicina UFSM com jaleco azul claro" },
+    { src: clientePabloBucco, alt: "Dr. Pablo Bucco - Ortodontia com jaleco branco personalizado" },
+    { src: clienteEsteticaMulher, alt: "Equipe de estética Clínica da Mulher com jalecos turquesa" },
   ];
 
   const imagesAventais = [
