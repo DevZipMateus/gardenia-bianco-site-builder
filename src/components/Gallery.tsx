@@ -49,6 +49,8 @@ import clienteScrubFeminino from "@/assets/gallery/cliente_scrub_feminino.jpg";
 // Import images - Aventais
 import aventaisCafeGuardino from "@/assets/gallery/aventais_cafe_guardino.jpg";
 import aventalAzulMarinho from "@/assets/gallery/avental_azul_marinho.jpg";
+import aventaisNonaDeli from "@/assets/gallery/aventais_nonadeli.jpg";
+import aventaisSantaLucia from "@/assets/gallery/aventais_santa_lucia.jpg";
 
 // Import images - Turmas
 import turmaJalecosBrancos from "@/assets/gallery/turma_jalecos_brancos.jpg";
@@ -113,6 +115,8 @@ const Gallery = () => {
     { src: clienteAventalBasic, alt: "Cliente com avental Basic branco e preto" },
     { src: aventaisCafeGuardino, alt: "Aventais personalizados Café Guardino em preto e bege" },
     { src: aventalAzulMarinho, alt: "Avental azul marinho com detalhes brancos - frente e costas" },
+    { src: aventaisNonaDeli, alt: "Aventais personalizados Nona Deli em marrom com detalhes laranja" },
+    { src: aventaisSantaLucia, alt: "Aventais personalizados Postos JP Santa Lúcia com uniforme profissional" },
   ];
 
   // Fotos de turmas de formandos e equipes profissionais
