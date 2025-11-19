@@ -45,6 +45,16 @@ import clienteScrubMasculino from "@/assets/gallery/cliente_scrub_masculino.jpg"
 import clienteAventalLyra from "@/assets/gallery/cliente_avental_lyra.jpg";
 import clienteAventalBasic from "@/assets/gallery/cliente_avental_basic.jpg";
 import clienteScrubFeminino from "@/assets/gallery/cliente_scrub_feminino.jpg";
+import clienteFisioFabricia from "@/assets/gallery/cliente_fisio_fabricia.jpg";
+import clienteJalecoInfantil from "@/assets/gallery/cliente_jaleco_infantil.jpg";
+import clienteMaxxiPan from "@/assets/gallery/cliente_maxxipan.jpg";
+import clienteOralSin from "@/assets/gallery/cliente_oral_sin.jpg";
+import clienteNinhoVeterinario from "@/assets/gallery/cliente_ninho_veterinario.jpg";
+import clienteNutricao from "@/assets/gallery/cliente_nutricao.jpg";
+import clienteVogel from "@/assets/gallery/cliente_vogel.jpg";
+import clienteJalecosCinzaRosa from "@/assets/gallery/cliente_jalecos_cinza_rosa.jpg";
+import clienteNinhoEquipe from "@/assets/gallery/cliente_ninho_equipe.jpg";
+import clienteDraEstella from "@/assets/gallery/cliente_dra_estella.jpg";
 
 // Import images - Aventais
 import aventaisCafeGuardino from "@/assets/gallery/aventais_cafe_guardino.jpg";
@@ -108,6 +118,16 @@ const Gallery = () => {
   const imagesClientes = [
     { src: clienteScrubMasculino, alt: "Cliente profissional com scrub preto Gardenia Bianco" },
     { src: clienteScrubFeminino, alt: "Clientes profissionais com scrubs pretos personalizados" },
+    { src: clienteFisioFabricia, alt: "Dra. Fabrícia Reis - Fisioterapeuta com jaleco preto personalizado" },
+    { src: clienteJalecoInfantil, alt: "Jaleco infantil branco com detalhes verdes personalizados" },
+    { src: clienteMaxxiPan, alt: "Uniformes personalizados Maxxi-Pan - Padaria e Confeitaria" },
+    { src: clienteOralSin, alt: "Dra. Luisa Iberlato - Oral Sin Sarandi com jaleco verde" },
+    { src: clienteNinhoVeterinario, alt: "Hospital Veterinário Ninho - Jalecos personalizados para veterinários" },
+    { src: clienteNutricao, alt: "Nutricionista com jaleco verde petróleo personalizado" },
+    { src: clienteVogel, alt: "Clínica Dr. Alcides Vogel - Jalecos brancos profissionais" },
+    { src: clienteJalecosCinzaRosa, alt: "Jalecos personalizados em cinza e rosa para clínica" },
+    { src: clienteNinhoEquipe, alt: "Equipe completa Hospital Veterinário Ninho com jalecos brancos" },
+    { src: clienteDraEstella, alt: "Dra. Estella com jaleco bege personalizado Gardenia Bianco" },
   ];
 
   const imagesAventais = [
@@ -297,7 +317,7 @@ const Gallery = () => {
         {/* Seção Clientes */}
         <div className="max-w-6xl mx-auto mt-16">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
-            Nossos Clientes
+            Clientes de Sucesso
           </h3>
           <Carousel
             opts={{
