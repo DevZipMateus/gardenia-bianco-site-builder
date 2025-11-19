@@ -221,7 +221,7 @@ const Gallery = () => {
         </div>
 
         {/* Seção Jalecos Femininos */}
-        <div className="max-w-6xl mx-auto mb-16">
+        <div className="max-w-6xl mx-auto mb-16 overflow-x-hidden">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
             Jalecos Femininos
           </h3>
@@ -278,7 +278,7 @@ const Gallery = () => {
         </div>
 
         {/* Seção Jalecos Masculinos */}
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto overflow-x-hidden">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
             Jalecos Masculinos
           </h3>
@@ -335,7 +335,7 @@ const Gallery = () => {
         </div>
 
         {/* Seção Clientes */}
-        <div className="max-w-6xl mx-auto mt-16">
+        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
             Clientes de Sucesso
           </h3>
@@ -392,7 +392,7 @@ const Gallery = () => {
         </div>
 
         {/* Seção Aventais */}
-        <div className="max-w-6xl mx-auto mt-16">
+        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
             Aventais
           </h3>
@@ -449,7 +449,7 @@ const Gallery = () => {
         </div>
 
         {/* Seção Turmas */}
-        <div className="max-w-6xl mx-auto mt-16">
+        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
             Turmas
           </h3>
@@ -506,7 +506,7 @@ const Gallery = () => {
         </div>
 
         {/* Seção Jalecos Infantis */}
-        <div className="max-w-6xl mx-auto mt-16">
+        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
             Jalecos Infantis
           </h3>
@@ -563,7 +563,7 @@ const Gallery = () => {
         </div>
 
         {/* Seção Porta Jalecos */}
-        <div className="max-w-6xl mx-auto mt-16">
+        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
             Porta Jalecos
           </h3>
@@ -620,7 +620,7 @@ const Gallery = () => {
         </div>
 
         {/* Seção Faixas */}
-        <div className="max-w-6xl mx-auto mt-16">
+        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
             Faixas
           </h3>
@@ -677,7 +677,7 @@ const Gallery = () => {
         </div>
 
         {/* Seção Toucas */}
-        <div className="max-w-6xl mx-auto mt-16">
+        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
             Toucas
           </h3>
