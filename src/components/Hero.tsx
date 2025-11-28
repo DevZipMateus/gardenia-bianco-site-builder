@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Instagram } from "lucide-react";
 import heroBackground from "@/assets/hero-background-jalecos-sul.jpg";
-import gardeniaLogo from "@/assets/gardenia-bianco-logo-white.png";
+import gardeniaText from "@/assets/gardenia-bianco-text-new.png";
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center space-y-4 md:space-y-6">
           <div className="space-y-2 md:space-y-3">
             <img 
-              src={gardeniaLogo} 
+              src={gardeniaText} 
               alt="Gardênia Bianco RS" 
               className="mx-auto h-auto animate-fade-in" 
               style={{ 
