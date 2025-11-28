@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Instagram } from "lucide-react";
 import heroBackground from "@/assets/hero-background-jalecos-sul.jpg";
+import gardeniaLogo from "@/assets/gardenia-bianco-logo-white.png";
 
 const Hero = () => {
   return (
@@ -15,9 +16,16 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-12 md:py-20">
         <div className="max-w-4xl mx-auto text-center space-y-4 md:space-y-6">
           <div className="space-y-2 md:space-y-3">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground tracking-tight animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both', textShadow: '2px 2px 8px rgba(0, 0, 0, 0.8)', fontFamily: 'Baby Angel' }}>
-              Gardênia Bianco RS
-            </h1>
+            <img 
+              src={gardeniaLogo} 
+              alt="Gardênia Bianco RS" 
+              className="mx-auto w-full max-w-2xl h-auto animate-fade-in" 
+              style={{ 
+                animationDelay: '0.1s', 
+                animationFillMode: 'both',
+                filter: 'drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.8))'
+              }}
+            />
             <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 font-light px-4 animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both', textShadow: '2px 2px 6px rgba(0, 0, 0, 0.7)' }}>
               Design exclusivo em moda profissional. Jalecos e scrubs personalizados com qualidade premium.
             </h2>
