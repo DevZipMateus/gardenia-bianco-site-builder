@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Instagram } from "lucide-react";
 import heroBackground from "@/assets/hero-background-new.jpeg";
-import gardeniaText from "@/assets/gardenia-bianco-text-new.png";
+import gardeniaText from "@/assets/gardenia-bianco-text-newest.png";
 
 const Hero = () => {
   return (
