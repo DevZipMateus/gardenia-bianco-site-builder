@@ -3,6 +3,7 @@ import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import gardeniaLogo from "@/assets/gardenia-bianco-logo-white.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -57,10 +58,14 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link to="/" className="flex items-center gap-2 md:gap-3">
-            <img src="/logo.png" alt="Gardênia Bianco RS" className="h-14 md:h-16 w-auto" />
-            <span className="font-semibold text-sm md:text-lg text-primary hidden sm:inline" style={{ fontFamily: 'Baby Angel' }}>
-              Gardênia Bianco RS
-            </span>
+            <img 
+              src={gardeniaLogo} 
+              alt="Gardênia Bianco RS" 
+              className="h-12 md:h-14 w-auto" 
+              style={{
+                filter: 'brightness(0) saturate(100%) invert(24%) sepia(18%) saturate(1057%) hue-rotate(346deg) brightness(95%) contrast(89%)'
+              }}
+            />
           </Link>
 
           {/* Desktop Navigation */}
