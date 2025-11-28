@@ -62,7 +62,7 @@ const Header = () => {
             <img 
               src={gardeniaNavbar} 
               alt="Gardênia Bianco RS" 
-              className="h-14 md:h-16 w-auto hidden sm:inline"
+              className="h-8 md:h-10 w-auto hidden sm:inline"
             />
           </Link>
 
