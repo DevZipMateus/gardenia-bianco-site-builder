@@ -3,7 +3,7 @@ import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import gardeniaText from "@/assets/gardenia-bianco-text-new.png";
+import gardeniaText from "@/assets/gardenia-bianco-text-brown.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -63,9 +63,6 @@ const Header = () => {
               src={gardeniaText} 
               alt="Gardênia Bianco RS" 
               className="h-7 md:h-8 w-auto hidden sm:inline" 
-              style={{
-                filter: 'brightness(0) saturate(100%) invert(24%) sepia(18%) saturate(1057%) hue-rotate(346deg) brightness(95%) contrast(89%)'
-              }}
             />
           </Link>
 
