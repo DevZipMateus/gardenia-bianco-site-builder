@@ -62,10 +62,7 @@ const Header = () => {
             <img 
               src={gardeniaText} 
               alt="Gardênia Bianco RS" 
-              className="h-7 md:h-8 w-auto hidden sm:inline" 
-              style={{
-                filter: 'brightness(0) saturate(100%) invert(24%) sepia(18%) saturate(1057%) hue-rotate(346deg) brightness(95%) contrast(89%)'
-              }}
+              className="h-7 md:h-8 w-auto hidden sm:inline"
             />
           </Link>
 
