@@ -3,7 +3,7 @@ import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import gardeniaText from "@/assets/gardenia-bianco-text.png";
+import gardeniaText from "@/assets/gardenia-bianco-text-new.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);

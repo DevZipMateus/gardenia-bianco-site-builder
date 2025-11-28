@@ -1,6 +1,6 @@
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Mail, MapPin, Phone, Instagram } from "lucide-react";
-import gardeniaText from "@/assets/gardenia-bianco-text.png";
+import gardeniaText from "@/assets/gardenia-bianco-text-new.png";
 
 const Footer = () => {
   const navigate = useNavigate();
