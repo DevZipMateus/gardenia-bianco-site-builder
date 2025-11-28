@@ -16,6 +16,7 @@ export default {
       fontFamily: {
         sans: ['Virtual', 'sans-serif'],
         virtual: ['Virtual', 'sans-serif'],
+        quicksand: ['Quicksand', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
