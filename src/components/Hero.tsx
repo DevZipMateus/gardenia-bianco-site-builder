@@ -24,8 +24,8 @@ const Hero = () => {
                 animationDelay: '0.1s', 
                 animationFillMode: 'both',
                 filter: 'drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.8))',
-                width: '80%',
-                maxWidth: '640px'
+                width: '60%',
+                maxWidth: '512px'
               }}
             />
             <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 font-light px-4 animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both', textShadow: '2px 2px 6px rgba(0, 0, 0, 0.7)' }}>
