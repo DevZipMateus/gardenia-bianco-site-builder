@@ -28,12 +28,12 @@ const Hero = () => {
                 maxWidth: '512px'
               }}
             />
-            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 font-light px-4 animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both', textShadow: '2px 2px 6px rgba(0, 0, 0, 0.7)' }}>
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 font-medium px-4 animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both', textShadow: '2px 2px 6px rgba(0, 0, 0, 0.7)' }}>
               Design exclusivo em moda profissional. Jalecos e scrubs personalizados com qualidade premium.
             </h2>
           </div>
 
-          <p className="text-base sm:text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed px-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both', textShadow: '2px 2px 6px rgba(0, 0, 0, 0.7)' }}>
+          <p className="text-base sm:text-lg md:text-xl text-primary-foreground/80 font-medium max-w-2xl mx-auto leading-relaxed px-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both', textShadow: '2px 2px 6px rgba(0, 0, 0, 0.7)' }}>
             Vestimentas criadas com paixão por uma designer de moda gaúcha, voltadas para profissionais que buscam estilo e conforto no trabalho.
           </p>
 
