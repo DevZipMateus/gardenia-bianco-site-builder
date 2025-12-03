@@ -86,6 +86,10 @@ import jalecosInfantis from "@/assets/gallery/jalecos_infantis.jpg";
 
 // Import images - Porta Jalecos
 import portaJalecoPersonalizado from "@/assets/gallery/porta_jaleco_personalizado.jpg";
+import portaJalecoVeterinario from "@/assets/gallery/porta_jaleco_veterinario.jpg";
+import portaJalecoAzul from "@/assets/gallery/porta_jaleco_azul.jpg";
+import portaJalecoBege from "@/assets/gallery/porta_jaleco_bege.jpg";
+import portaJalecoMarrom from "@/assets/gallery/porta_jaleco_marrom.jpg";
 
 // Import images - Faixas
 import faixasPersonalizadas from "@/assets/gallery/faixas_personalizadas.jpg";
@@ -190,6 +194,10 @@ const Gallery = () => {
 
   const imagesPortaJalecos = [
     { src: portaJalecoPersonalizado, alt: "Porta jaleco personalizado com bordado de Medicina" },
+    { src: portaJalecoVeterinario, alt: "Porta jaleco personalizado tema Medicina Veterinária com estampas de cães" },
+    { src: portaJalecoAzul, alt: "Porta jaleco azul claro personalizado com nome bordado" },
+    { src: portaJalecoBege, alt: "Porta jaleco bege personalizado com nome bordado" },
+    { src: portaJalecoMarrom, alt: "Porta jaleco marrom caramelo personalizado com inicial bordada" },
   ];
 
   const imagesFaixas = [
