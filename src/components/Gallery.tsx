@@ -126,6 +126,7 @@ const Gallery = () => {
   ];
 
   const imagesClientes = [
+    { src: clienteAventalLyra, alt: "Cliente com avental modelo Lyra em tom bege" },
     { src: clienteScrubMasculino, alt: "Cliente profissional com scrub preto Gardenia Bianco" },
     { src: clienteScrubFeminino, alt: "Clientes profissionais com scrubs pretos personalizados" },
     { src: clienteFisioFabricia, alt: "Dra. Fabrícia Reis - Fisioterapeuta com jaleco preto personalizado" },
@@ -151,7 +152,6 @@ const Gallery = () => {
   ];
 
   const imagesAventais = [
-    { src: clienteAventalLyra, alt: "Cliente com avental modelo Lyra em tom bege" },
     { src: clienteAventalBasic, alt: "Cliente com avental Basic branco e preto" },
     { src: aventaisCafeGuardino, alt: "Aventais personalizados Café Guardino em preto e bege" },
     { src: aventalAzulMarinho, alt: "Avental azul marinho com detalhes brancos - frente e costas" },
