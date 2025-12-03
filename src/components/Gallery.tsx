@@ -150,12 +150,12 @@ const Gallery = () => {
     { src: clienteMedicinaUfsm, alt: "Estudante de Medicina UFSM com jaleco azul claro" },
     { src: clientePabloBucco, alt: "Dr. Pablo Bucco - Ortodontia com jaleco branco personalizado" },
     { src: clienteEsteticaMulher, alt: "Equipe de estética Clínica da Mulher com jalecos turquesa" },
+    { src: aventaisNonaDeli, alt: "Aventais personalizados Nona Deli em marrom com detalhes laranja" },
   ];
 
   const imagesAventais = [
     { src: aventaisCafeGuardino, alt: "Aventais personalizados Café Guardino em preto e bege" },
     { src: aventalAzulMarinho, alt: "Avental azul marinho com detalhes brancos - frente e costas" },
-    { src: aventaisNonaDeli, alt: "Aventais personalizados Nona Deli em marrom com detalhes laranja" },
     { src: aventaisSantaLucia, alt: "Aventais personalizados Postos JP Santa Lúcia com uniforme profissional" },
   ];
 
