@@ -148,8 +148,6 @@ const Gallery = () => {
     { src: clienteMedicinaUfsm, alt: "Estudante de Medicina UFSM com jaleco azul claro" },
     { src: clientePabloBucco, alt: "Dr. Pablo Bucco - Ortodontia com jaleco branco personalizado" },
     { src: clienteEsteticaMulher, alt: "Equipe de estética Clínica da Mulher com jalecos turquesa" },
-    { src: clienteAventalLyra, alt: "Cliente com avental modelo Lyra em tom bege" },
-    { src: clienteAventalBasic, alt: "Cliente com avental Basic branco e preto" },
   ];
 
   const imagesAventais = [
