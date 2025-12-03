@@ -171,8 +171,8 @@ const Gallery = () => {
 
   const imagesInfantis = [
     { src: jalecosInfantis, alt: "Jalecos infantis para pequenos profissionais - modelos diversos" },
-    { src: clienteJalecoInfantil, alt: "Jaleco infantil branco com detalhes verdes personalizados" },
     { src: clienteJalecosInfantisFamilia, alt: "Família com jalecos infantis personalizados" },
+    { src: clienteJalecoInfantil, alt: "Jaleco infantil branco com detalhes verdes personalizados" },
   ];
 
   const imagesPortaJalecos = [

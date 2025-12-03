@@ -1,20 +1,19 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Scissors, Sparkles, Shirt } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      icon: Scissors,
+      emoji: "🥼",
       title: "Jalecos diferenciados",
       description: "Jalecos personalizados em tecido e modelagem de qualidade premium. Cada peça é pensada para oferecer conforto e estilo único ao profissional.",
     },
     {
-      icon: Sparkles,
+      emoji: "👚",
       title: "Scrubs slim",
       description: "Pijamas cirúrgicos com modelagem slim em tecido nobre. Design moderno que une funcionalidade e elegância para o ambiente hospitalar.",
     },
     {
-      icon: Shirt,
+      emoji: "👔",
       title: "Uniformes corporativos",
       description: "Atendimento especializado para o público corporativo e gastronômico, criando identidade visual através de uniformes personalizados.",
     },
@@ -38,7 +37,7 @@ const Services = () => {
             <Card key={index} className="border-border hover:shadow-medium transition-all duration-300 bg-card">
               <CardHeader className="p-5 md:p-6">
                 <div className="w-14 h-14 md:w-16 md:h-16 bg-accent/10 rounded-2xl flex items-center justify-center mb-3 md:mb-4">
-                  <service.icon className="w-7 h-7 md:w-8 md:h-8 text-accent" />
+                  <span className="text-3xl md:text-4xl">{service.emoji}</span>
                 </div>
                 <CardTitle className="text-xl md:text-2xl text-primary">{service.title}</CardTitle>
               </CardHeader>
