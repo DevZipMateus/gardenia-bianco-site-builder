@@ -1,6 +1,5 @@
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Mail, MapPin, Phone, Instagram } from "lucide-react";
-import gardeniaText from "@/assets/gardenia-bianco-footer-new.png";
 import logoNew from "@/assets/logo-new.png";
 
 const Footer = () => {
@@ -42,9 +41,8 @@ const Footer = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {/* Logo e Descrição */}
           <div className="sm:col-span-2">
-            <div className="flex items-center gap-2 md:gap-3 mb-3 md:mb-4">
+            <div className="flex items-center mb-3 md:mb-4">
               <img src={logoNew} alt="Gardênia Bianco RS" className="h-14 md:h-16 w-auto" />
-              <img src={gardeniaText} alt="Gardênia Bianco RS" className="h-14 md:h-16 w-auto" />
             </div>
             <p className="text-sm md:text-base text-primary-foreground/80 leading-relaxed mb-3 md:mb-4">
               Design exclusivo em moda profissional. Jalecos e scrubs personalizados com qualidade premium para profissionais que buscam estilo e conforto.
