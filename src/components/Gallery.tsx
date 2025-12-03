@@ -94,6 +94,12 @@ import faixasPersonalizadas from "@/assets/gallery/faixas_personalizadas.jpg";
 import toucaPersonalizada from "@/assets/gallery/touca_personalizada.jpg";
 import toucaCirurgica from "@/assets/gallery/touca_cirurgica.jpg";
 
+// Import images - Scrubs
+import scrubFemininoAzul from "@/assets/gallery/scrub_feminino_azul.jpg";
+import scrubsColagem from "@/assets/gallery/scrubs_colagem.jpg";
+import scrubMasculinoAzul from "@/assets/gallery/scrub_masculino_azul.jpg";
+import scrubFemininoRosa from "@/assets/gallery/scrub_feminino_rosa.jpg";
+
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
@@ -152,6 +158,10 @@ const Gallery = () => {
   const imagesScrubs = [
     { src: clienteScrubMasculino, alt: "Cliente profissional com scrub preto Gardenia Bianco" },
     { src: clienteScrubFeminino, alt: "Clientes profissionais com scrubs pretos personalizados" },
+    { src: scrubFemininoAzul, alt: "Médica com scrub azul marinho personalizado Gardenia Bianco" },
+    { src: scrubsColagem, alt: "Coleção de scrubs personalizados Gardenia Bianco" },
+    { src: scrubMasculinoAzul, alt: "Profissional com scrub azul marinho personalizado" },
+    { src: scrubFemininoRosa, alt: "Médica com scrub rosa personalizado Gardenia Bianco" },
   ];
 
   const imagesAventais = [
