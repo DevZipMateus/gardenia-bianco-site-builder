@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import gardeniaNavbar from "@/assets/gardenia-bianco-navbar-new.png";
 import logoNew from "@/assets/logo-new.png";
 
 const Header = () => {
@@ -58,13 +57,8 @@ const Header = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link to="/" className="flex items-center gap-2 md:gap-3">
+          <Link to="/" className="flex items-center">
             <img src={logoNew} alt="Gardênia Bianco RS" className="h-10 md:h-11 w-auto" />
-            <img 
-              src={gardeniaNavbar} 
-              alt="Gardênia Bianco RS" 
-              className="h-10 md:h-12 w-auto hidden sm:inline"
-            />
           </Link>
 
           {/* Desktop Navigation */}
