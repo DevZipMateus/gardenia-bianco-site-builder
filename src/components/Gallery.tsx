@@ -131,7 +131,6 @@ const Gallery = () => {
     { src: clienteScrubMasculino, alt: "Cliente profissional com scrub preto Gardenia Bianco" },
     { src: clienteScrubFeminino, alt: "Clientes profissionais com scrubs pretos personalizados" },
     { src: clienteFisioFabricia, alt: "Dra. Fabrícia Reis - Fisioterapeuta com jaleco preto personalizado" },
-    { src: clienteJalecoInfantil, alt: "Jaleco infantil branco com detalhes verdes personalizados" },
     { src: clienteMaxxiPan, alt: "Uniformes personalizados Maxxi-Pan - Padaria e Confeitaria" },
     { src: clienteOralSin, alt: "Dra. Luisa Iberlato - Oral Sin Sarandi com jaleco verde" },
     { src: clienteNinhoVeterinario, alt: "Hospital Veterinário Ninho - Jalecos personalizados para veterinários" },
