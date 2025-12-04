@@ -721,101 +721,6 @@ const Gallery = () => {
           </Carousel>
         </div>
 
-        {/* Seção Faixas */}
-        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
-          <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
-            Faixas
-          </h3>
-          <Carousel
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            plugins={[
-              Autoplay({
-                delay: 3000,
-                stopOnInteraction: false,
-                stopOnMouseEnter: false,
-              }),
-            ]}
-            className="w-full"
-          >
-            <CarouselContent className="-ml-2 md:-ml-4 justify-center">
-              {imagesFaixas.map((image, index) => (
-                <CarouselItem key={index} className="pl-2 md:pl-4 basis-full md:basis-2/3 lg:basis-1/2">
-                  <div className="p-1">
-                    <Dialog>
-                      <DialogTrigger asChild>
-                        <Card 
-                          className="cursor-pointer overflow-hidden hover:shadow-medium transition-all duration-300 border-border"
-                          onClick={() => setSelectedImage(image.src)}
-                        >
-                          <CardContent className="p-0 aspect-square">
-                            <img
-                              src={image.src}
-                              alt={image.alt}
-                              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                            />
-                          </CardContent>
-                        </Card>
-                      </DialogTrigger>
-                      <DialogContent className="max-w-[95vw] md:max-w-4xl w-full p-2 md:p-4 bg-transparent border-0">
-                        <div className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center">
-                          <img
-                            src={image.src}
-                            alt={image.alt}
-                            className="max-w-full max-h-full object-contain rounded-lg"
-                          />
-                        </div>
-                      </DialogContent>
-                    </Dialog>
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious className="hidden md:flex" />
-            <CarouselNext className="hidden md:flex" />
-          </Carousel>
-        </div>
-
-        {/* Seção Toucas */}
-        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
-          <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
-            Toucas
-          </h3>
-          <div className="flex justify-center gap-4 md:gap-6 flex-wrap px-4">
-            {imagesToucas.map((image, index) => (
-              <div key={index} className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)] max-w-sm">
-                <Dialog>
-                  <DialogTrigger asChild>
-                    <Card 
-                      className="cursor-pointer overflow-hidden hover:shadow-medium transition-all duration-300 border-border"
-                      onClick={() => setSelectedImage(image.src)}
-                    >
-                      <CardContent className="p-0 aspect-square">
-                        <img
-                          src={image.src}
-                          alt={image.alt}
-                          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                        />
-                      </CardContent>
-                    </Card>
-                  </DialogTrigger>
-                  <DialogContent className="max-w-[95vw] md:max-w-4xl w-full p-2 md:p-4 bg-transparent border-0">
-                    <div className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center">
-                      <img
-                        src={image.src}
-                        alt={image.alt}
-                        className="max-w-full max-h-full object-contain rounded-lg"
-                      />
-                    </div>
-                  </DialogContent>
-                </Dialog>
-              </div>
-            ))}
-          </div>
-        </div>
-
         {/* Seção Porta Jalecos */}
         <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
@@ -903,6 +808,101 @@ const Gallery = () => {
                           onClick={() => setSelectedImage(image.src)}
                         >
                           <CardContent className="p-0 aspect-[3/4]">
+                            <img
+                              src={image.src}
+                              alt={image.alt}
+                              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                            />
+                          </CardContent>
+                        </Card>
+                      </DialogTrigger>
+                      <DialogContent className="max-w-[95vw] md:max-w-4xl w-full p-2 md:p-4 bg-transparent border-0">
+                        <div className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center">
+                          <img
+                            src={image.src}
+                            alt={image.alt}
+                            className="max-w-full max-h-full object-contain rounded-lg"
+                          />
+                        </div>
+                      </DialogContent>
+                    </Dialog>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden md:flex" />
+            <CarouselNext className="hidden md:flex" />
+          </Carousel>
+        </div>
+
+        {/* Seção Toucas */}
+        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
+          <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
+            Toucas
+          </h3>
+          <div className="flex justify-center gap-4 md:gap-6 flex-wrap px-4">
+            {imagesToucas.map((image, index) => (
+              <div key={index} className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)] max-w-sm">
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Card 
+                      className="cursor-pointer overflow-hidden hover:shadow-medium transition-all duration-300 border-border"
+                      onClick={() => setSelectedImage(image.src)}
+                    >
+                      <CardContent className="p-0 aspect-square">
+                        <img
+                          src={image.src}
+                          alt={image.alt}
+                          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                        />
+                      </CardContent>
+                    </Card>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-[95vw] md:max-w-4xl w-full p-2 md:p-4 bg-transparent border-0">
+                    <div className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center">
+                      <img
+                        src={image.src}
+                        alt={image.alt}
+                        className="max-w-full max-h-full object-contain rounded-lg"
+                      />
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Seção Faixas */}
+        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
+          <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
+            Faixas
+          </h3>
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            plugins={[
+              Autoplay({
+                delay: 3000,
+                stopOnInteraction: false,
+                stopOnMouseEnter: false,
+              }),
+            ]}
+            className="w-full"
+          >
+            <CarouselContent className="-ml-2 md:-ml-4 justify-center">
+              {imagesFaixas.map((image, index) => (
+                <CarouselItem key={index} className="pl-2 md:pl-4 basis-full md:basis-2/3 lg:basis-1/2">
+                  <div className="p-1">
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <Card 
+                          className="cursor-pointer overflow-hidden hover:shadow-medium transition-all duration-300 border-border"
+                          onClick={() => setSelectedImage(image.src)}
+                        >
+                          <CardContent className="p-0 aspect-square">
                             <img
                               src={image.src}
                               alt={image.alt}
