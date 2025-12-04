@@ -102,6 +102,12 @@ import faixasPersonalizadas from "@/assets/gallery/faixas_personalizadas.jpg";
 import toucaPersonalizada from "@/assets/gallery/touca_personalizada.jpg";
 import toucaCirurgica from "@/assets/gallery/touca_cirurgica.jpg";
 
+// Import images - Corporativo
+import corporativoEquipeDavant from "@/assets/gallery/corporativo_equipe_davant.jpg";
+import corporativoCamisaBranca from "@/assets/gallery/corporativo_camisa_branca.jpg";
+import corporativoOdontologia from "@/assets/gallery/corporativo_odontologia.jpg";
+import corporativoBlazerVerde from "@/assets/gallery/corporativo_blazer_verde.jpg";
+
 // Import images - Scrubs
 import scrubFemininoAzul from "@/assets/gallery/scrub_feminino_azul.jpg";
 import scrubsColagem from "@/assets/gallery/scrubs_colagem.jpg";
@@ -216,6 +222,13 @@ const Gallery = () => {
   const imagesToucas = [
     { src: toucaPersonalizada, alt: "Touca personalizada com bordado de frutas" },
     { src: toucaCirurgica, alt: "Touca cirúrgica azul personalizada para profissionais de saúde" },
+  ];
+
+  const imagesCorporativo = [
+    { src: corporativoEquipeDavant, alt: "Equipe corporativa com uniformes brancos personalizados Davant Odontologia" },
+    { src: corporativoCamisaBranca, alt: "Camisa social branca corporativa feminina personalizada" },
+    { src: corporativoOdontologia, alt: "Uniforme corporativo Cavalheiro & Mozzaquatro Odontologia" },
+    { src: corporativoBlazerVerde, alt: "Blazer e saia verde corporativo para empresas" },
   ];
 
   return (
@@ -852,7 +865,64 @@ const Gallery = () => {
                         alt={image.alt}
                         className="max-w-full max-h-full object-contain rounded-lg"
                       />
-                    </div>
+        </div>
+
+        {/* Seção Corporativo */}
+        <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
+          <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
+            Corporativo
+          </h3>
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            plugins={[
+              Autoplay({
+                delay: 3000,
+                stopOnInteraction: false,
+                stopOnMouseEnter: false,
+              }),
+            ]}
+            className="w-full"
+          >
+            <CarouselContent className="-ml-2 md:-ml-4">
+              {imagesCorporativo.map((image, index) => (
+                <CarouselItem key={index} className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
+                  <div className="p-1">
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <Card 
+                          className="cursor-pointer overflow-hidden hover:shadow-medium transition-all duration-300 border-border"
+                          onClick={() => setSelectedImage(image.src)}
+                        >
+                          <CardContent className="p-0 aspect-[3/4]">
+                            <img
+                              src={image.src}
+                              alt={image.alt}
+                              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                            />
+                          </CardContent>
+                        </Card>
+                      </DialogTrigger>
+                      <DialogContent className="max-w-[95vw] md:max-w-4xl w-full p-2 md:p-4 bg-transparent border-0">
+                        <div className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center">
+                          <img
+                            src={image.src}
+                            alt={image.alt}
+                            className="max-w-full max-h-full object-contain rounded-lg"
+                          />
+                        </div>
+                      </DialogContent>
+                    </Dialog>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden md:flex" />
+            <CarouselNext className="hidden md:flex" />
+          </Carousel>
+        </div>
                   </DialogContent>
                 </Dialog>
               </div>
