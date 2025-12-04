@@ -865,6 +865,12 @@ const Gallery = () => {
                         alt={image.alt}
                         className="max-w-full max-h-full object-contain rounded-lg"
                       />
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Seção Corporativo */}
@@ -922,12 +928,6 @@ const Gallery = () => {
             <CarouselPrevious className="hidden md:flex" />
             <CarouselNext className="hidden md:flex" />
           </Carousel>
-        </div>
-                  </DialogContent>
-                </Dialog>
-              </div>
-            ))}
-          </div>
         </div>
 
         <div className="mt-8 md:mt-12 text-center">
