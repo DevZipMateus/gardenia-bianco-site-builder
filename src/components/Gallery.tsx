@@ -167,6 +167,7 @@ const Gallery = () => {
     { src: clienteEsteticaMulher, alt: "Equipe de estética Clínica da Mulher com jalecos turquesa" },
     { src: aventaisNonaDeli, alt: "Aventais personalizados Nona Deli em marrom com detalhes laranja" },
     { src: turmaClinicaAzul, alt: "Equipe de clínica com jalecos azuis personalizados" },
+    { src: turmaFamiliaFelin, alt: "Família Felin - clientes com jalecos personalizados Gardenia Bianco" },
   ];
 
   const imagesScrubs = [
@@ -189,7 +190,6 @@ const Gallery = () => {
   // Fotos de turmas de formandos e equipes profissionais
   const imagesTurmas = [
     { src: turmaJalecosBrancos, alt: "Turma de formandos com jalecos brancos personalizados" },
-    { src: turmaFamiliaFelin, alt: "Família Felin - turma com jalecos personalizados Gardenia Bianco" },
     { src: turmaFamiliaFelinCorredor, alt: "Equipe de profissionais com jalecos elegantes" },
     { src: turmaMedicinaUfsm, alt: "Turma Medicina UFSM - formandos com jalecos brancos" },
     { src: turmaGardeniaBianco, alt: "Turma Gardenia Bianco - jalecos brancos para formatura" },
