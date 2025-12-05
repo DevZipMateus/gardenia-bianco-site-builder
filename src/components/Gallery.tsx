@@ -161,7 +161,7 @@ const Gallery = () => {
     { src: clienteEsteticaRevigora, alt: "Equipe Clínica Revigora com uniformes rosa personalizados" },
     { src: clienteOdontopediatria, alt: "Dr. Guilherme - Odontopediatria com jaleco azul claro" },
     { src: clienteJalecosInfantisFamilia, alt: "Família com jalecos infantis personalizados" },
-    { src: clienteMedicinaUfsm, alt: "Estudante de Medicina UFSM com jaleco azul claro" },
+    
     { src: clientePabloBucco, alt: "Dr. Pablo Bucco - Ortodontia com jaleco branco personalizado" },
     { src: clienteEsteticaMulher, alt: "Equipe de estética Clínica da Mulher com jalecos turquesa" },
     { src: aventaisNonaDeli, alt: "Aventais personalizados Nona Deli em marrom com detalhes laranja" },
@@ -188,6 +188,7 @@ const Gallery = () => {
 
   // Fotos de turmas de formandos e equipes profissionais
   const imagesTurmas = [
+    { src: clienteMedicinaUfsm, alt: "Estudante de Medicina UFSM com jaleco branco personalizado" },
     { src: clienteMedicosCasal, alt: "Casal de médicos com jalecos brancos personalizados Gardenia Bianco" },
     { src: turmaJalecosBrancos, alt: "Turma de formandos com jalecos brancos personalizados" },
     { src: turmaFamiliaFelinCorredor, alt: "Equipe de profissionais com jalecos elegantes" },
