@@ -158,7 +158,6 @@ const Gallery = () => {
     { src: clienteCasalFisioterapia, alt: "Casal de fisioterapeutas com uniformes personalizados" },
     { src: clienteCamilaBrendler, alt: "Camila Brendler com jaleco preto personalizado" },
     { src: clienteJalecoCinza, alt: "Profissional da saúde com jaleco cinza Gardenia Bianco" },
-    { src: clienteMedicosCasal, alt: "Casal de médicos com jalecos brancos personalizados" },
     { src: clienteEsteticaRevigora, alt: "Equipe Clínica Revigora com uniformes rosa personalizados" },
     { src: clienteOdontopediatria, alt: "Dr. Guilherme - Odontopediatria com jaleco azul claro" },
     { src: clienteJalecosInfantisFamilia, alt: "Família com jalecos infantis personalizados" },
@@ -189,6 +188,7 @@ const Gallery = () => {
 
   // Fotos de turmas de formandos e equipes profissionais
   const imagesTurmas = [
+    { src: clienteMedicosCasal, alt: "Casal de médicos com jalecos brancos personalizados Gardenia Bianco" },
     { src: turmaJalecosBrancos, alt: "Turma de formandos com jalecos brancos personalizados" },
     { src: turmaFamiliaFelinCorredor, alt: "Equipe de profissionais com jalecos elegantes" },
     { src: turmaMedicinaUfsm, alt: "Turma Medicina UFSM - formandos com jalecos brancos" },
