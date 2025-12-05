@@ -154,6 +154,7 @@ const Gallery = () => {
     { src: clienteVogel, alt: "Clínica Dr. Alcides Vogel - Jalecos brancos profissionais" },
     { src: clienteJalecosCinzaRosa, alt: "Jalecos personalizados em cinza e rosa para clínica" },
     { src: clienteNinhoEquipe, alt: "Equipe completa Hospital Veterinário Ninho com jalecos brancos" },
+    { src: clienteDraEstella, alt: "Dra. Estella com jaleco bege personalizado Gardenia Bianco" },
     { src: clienteCasalFisioterapia, alt: "Casal de fisioterapeutas com uniformes personalizados" },
     { src: clienteCamilaBrendler, alt: "Camila Brendler com jaleco preto personalizado" },
     { src: clienteJalecoCinza, alt: "Profissional da saúde com jaleco cinza Gardenia Bianco" },
@@ -187,7 +188,6 @@ const Gallery = () => {
 
   // Fotos de turmas de formandos e equipes profissionais
   const imagesTurmas = [
-    { src: clienteDraEstella, alt: "Dra. Estella com jaleco bege personalizado Gardenia Bianco" },
     { src: clienteMedicosCasal, alt: "Casal de médicos com jalecos brancos personalizados Gardenia Bianco" },
     { src: turmaJalecosBrancos, alt: "Turma de formandos com jalecos brancos personalizados" },
     { src: turmaFamiliaFelinCorredor, alt: "Equipe de profissionais com jalecos elegantes" },
