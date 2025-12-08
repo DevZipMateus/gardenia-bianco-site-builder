@@ -50,8 +50,8 @@ const Hero = () => {
               className="w-full sm:w-auto animate-fade-in"
               style={{ animationDelay: '0.5s', animationFillMode: 'both' }}
             >
-              <Button size="lg" variant="outline" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 bg-white/10 text-primary-foreground border-white/30 hover:bg-white/20">
-                <Instagram className="mr-2 h-4 md:h-5 w-4 md:w-5" />
+              <Button size="lg" variant="outline" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 bg-white/10 text-primary-foreground border-white/30 hover:bg-gradient-to-r hover:from-pink-500 hover:via-purple-500 hover:to-orange-400 hover:border-transparent hover:text-white hover:scale-105 hover:shadow-[0_0_20px_rgba(236,72,153,0.5)] transition-all duration-300 group">
+                <Instagram className="mr-2 h-4 md:h-5 w-4 md:w-5 group-hover:animate-pulse" />
                 Instagram
               </Button>
             </a>
