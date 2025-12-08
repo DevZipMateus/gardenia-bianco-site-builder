@@ -44,7 +44,7 @@ const Hero = () => {
               </Button>
             </a>
             <a
-              href="#galeria"
+              href="#clientes-sucesso"
               className="w-full sm:w-auto animate-fade-in"
               style={{ animationDelay: '0.4s', animationFillMode: 'both' }}
             >
