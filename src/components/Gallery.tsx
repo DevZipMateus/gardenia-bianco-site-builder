@@ -114,6 +114,26 @@ import scrubsColagem from "@/assets/gallery/scrubs_colagem.jpg";
 import scrubMasculinoAzul from "@/assets/gallery/scrub_masculino_azul.jpg";
 import scrubFemininoRosa from "@/assets/gallery/scrub_feminino_rosa.jpg";
 
+// Import images - Clientes de Sucesso (pasta clientessucesso)
+import clienteSucesso1 from "@/assets/gallery/clientessucesso/1164418992469659.jpeg";
+import clienteSucesso2 from "@/assets/gallery/clientessucesso/1188523876760427.jpeg";
+import clienteSucesso3 from "@/assets/gallery/clientessucesso/1380521673427425.jpeg";
+import clienteSucesso4 from "@/assets/gallery/clientessucesso/1391025582560843.jpeg";
+import clienteSucesso5 from "@/assets/gallery/clientessucesso/1395459928588902.jpeg";
+import clienteSucesso6 from "@/assets/gallery/clientessucesso/1459295486037700.jpeg";
+import clienteSucesso7 from "@/assets/gallery/clientessucesso/1460035058955577.jpeg";
+import clienteSucesso8 from "@/assets/gallery/clientessucesso/1478532349892715.jpeg";
+import clienteSucesso9 from "@/assets/gallery/clientessucesso/1564248944527179.jpeg";
+import clienteSucesso10 from "@/assets/gallery/clientessucesso/1579468799716659.jpeg";
+import clienteSucesso11 from "@/assets/gallery/clientessucesso/1586769406079141.jpeg";
+import clienteSucesso12 from "@/assets/gallery/clientessucesso/1599541651210121.jpeg";
+import clienteSucesso13 from "@/assets/gallery/clientessucesso/1748707542488049.jpeg";
+import clienteSucesso14 from "@/assets/gallery/clientessucesso/25780423481549532.jpeg";
+import clienteSucesso15 from "@/assets/gallery/clientessucesso/3273844659463136.jpeg";
+import clienteSucesso16 from "@/assets/gallery/clientessucesso/3436062073211137.jpeg";
+import clienteSucesso17 from "@/assets/gallery/clientessucesso/856520190421153.jpeg";
+import clienteSucesso18 from "@/assets/gallery/clientessucesso/861534950003546.jpeg";
+
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
@@ -161,12 +181,30 @@ const Gallery = () => {
     { src: clienteEsteticaRevigora, alt: "Equipe Clínica Revigora com uniformes rosa personalizados" },
     { src: clienteOdontopediatria, alt: "Dr. Guilherme - Odontopediatria com jaleco azul claro" },
     { src: clienteJalecosInfantisFamilia, alt: "Família com jalecos infantis personalizados" },
-    
     { src: clientePabloBucco, alt: "Dr. Pablo Bucco - Ortodontia com jaleco branco personalizado" },
     { src: clienteEsteticaMulher, alt: "Equipe de estética Clínica da Mulher com jalecos turquesa" },
     { src: aventaisNonaDeli, alt: "Aventais personalizados Nona Deli em marrom com detalhes laranja" },
     { src: turmaClinicaAzul, alt: "Equipe de clínica com jalecos azuis personalizados" },
     { src: turmaFamiliaFelin, alt: "Família Felin - clientes com jalecos personalizados Gardenia Bianco" },
+    // Novas imagens da pasta clientessucesso
+    { src: clienteSucesso1, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso2, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso3, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso4, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso5, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso6, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso7, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso8, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso9, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso10, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso11, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso12, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso13, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso14, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso15, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso16, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso17, alt: "Cliente de sucesso Gardenia Bianco" },
+    { src: clienteSucesso18, alt: "Cliente de sucesso Gardenia Bianco" },
   ];
 
   const imagesScrubs = [
