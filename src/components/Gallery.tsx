@@ -97,10 +97,17 @@ import portaEstetoscopioVeterinario from "@/assets/gallery/porta_estetoscopio_ve
 
 // Import images - Faixas
 import faixasPersonalizadas from "@/assets/gallery/faixas_personalizadas.jpg";
+import faixa1 from "@/assets/faixas/1211295324260237.jpeg";
+import faixa2 from "@/assets/faixas/1499008111174354.jpeg";
+import faixa3 from "@/assets/faixas/1780787819250515.jpeg";
 
 // Import images - Toucas
 import toucaPersonalizada from "@/assets/gallery/touca_personalizada.jpg";
 import toucaCirurgica from "@/assets/gallery/touca_cirurgica.jpg";
+import touca1 from "@/assets/toucas/1370868131111138.jpeg";
+import touca2 from "@/assets/toucas/1408802603940652.jpeg";
+import touca3 from "@/assets/toucas/1546401666614875.jpeg";
+import touca4 from "@/assets/toucas/2311252415983472.jpeg";
 
 // Import images - Corporativo
 import corporativoEquipeDavant from "@/assets/gallery/corporativo_equipe_davant.jpg";
@@ -256,11 +263,18 @@ const Gallery = () => {
 
   const imagesFaixas = [
     { src: faixasPersonalizadas, alt: "Faixas personalizadas em diversas cores para formandos" },
+    { src: faixa1, alt: "Faixa personalizada de formatura bordada" },
+    { src: faixa2, alt: "Faixa de formatura com bordado exclusivo" },
+    { src: faixa3, alt: "Faixa personalizada para formandos" },
   ];
 
   const imagesToucas = [
     { src: toucaPersonalizada, alt: "Touca personalizada com bordado de frutas" },
     { src: toucaCirurgica, alt: "Touca cirúrgica azul personalizada para profissionais de saúde" },
+    { src: touca1, alt: "Touca cirúrgica personalizada com estampa exclusiva" },
+    { src: touca2, alt: "Touca personalizada para profissionais de saúde" },
+    { src: touca3, alt: "Touca cirúrgica com bordado personalizado" },
+    { src: touca4, alt: "Touca personalizada estilo profissional" },
   ];
 
   const imagesCorporativo = [
