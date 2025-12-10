@@ -259,6 +259,7 @@ const Gallery = () => {
   const imagesPortaEstetoscopio = [
     { src: portaEstetoscopioPreto, alt: "Porta estetoscópio preto personalizado com bordado de nome e batimentos cardíacos" },
     { src: portaEstetoscopioVeterinario, alt: "Porta estetoscópio tema Medicina Veterinária com estampas de cães" },
+    { src: clienteSucesso1, alt: "Porta estetoscópio preto com bordado de estetoscópio e batimentos cardíacos em vermelho" },
   ];
 
   const imagesFaixas = [
