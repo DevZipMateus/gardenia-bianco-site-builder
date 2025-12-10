@@ -94,6 +94,7 @@ import portaJalecoMarrom from "@/assets/gallery/porta_jaleco_marrom.jpg";
 // Import images - Porta Estetoscópio
 import portaEstetoscopioPreto from "@/assets/gallery/porta_estetoscopio_preto.jpg";
 import portaEstetoscopioVeterinario from "@/assets/gallery/porta_estetoscopio_veterinario.jpg";
+import portaEstetoscopioCardiaco from "@/assets/gallery/porta_estetoscopio_cardiaco.jpg";
 
 // Import images - Faixas
 import faixasPersonalizadas from "@/assets/gallery/faixas_personalizadas.jpg";
@@ -259,7 +260,7 @@ const Gallery = () => {
   const imagesPortaEstetoscopio = [
     { src: portaEstetoscopioPreto, alt: "Porta estetoscópio preto personalizado com bordado de nome e batimentos cardíacos" },
     { src: portaEstetoscopioVeterinario, alt: "Porta estetoscópio tema Medicina Veterinária com estampas de cães" },
-    { src: clienteSucesso1, alt: "Porta estetoscópio preto com bordado de estetoscópio e batimentos cardíacos em vermelho" },
+    { src: portaEstetoscopioCardiaco, alt: "Porta estetoscópio preto com bordado de estetoscópio e batimentos cardíacos em vermelho" },
   ];
 
   const imagesFaixas = [
