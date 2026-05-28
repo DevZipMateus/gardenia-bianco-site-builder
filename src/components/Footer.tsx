@@ -118,8 +118,8 @@ const Footer = () => {
               <div className="flex items-start gap-2 text-primary-foreground/80">
                 <MapPin className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0 mt-0.5" />
                 <span className="text-xs md:text-sm">
-                  Av. Prefeito Evandro Behr, 7056<br />
-                  Sala 30 - Centro Comercial Camobi
+                  Camobi, bairro Pé de Plátano<br />
+                  [demais informações pelo WhatsApp]
                 </span>
               </div>
               <a

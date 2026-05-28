@@ -61,8 +61,8 @@ const Contact = () => {
                   <div>
                     <p className="font-medium text-sm md:text-base text-foreground">Endereço</p>
                     <p className="text-sm md:text-base text-muted-foreground">
-                      Avenida Prefeito Evandro Behr, 7056<br />
-                      Sala 30 - Centro Comercial Camobi
+                      Camobi, bairro Pé de Plátano<br />
+                      <span className="text-xs md:text-sm">[demais informações pelo WhatsApp]</span>
                     </p>
                   </div>
                 </div>

@@ -909,7 +909,7 @@ const Gallery = () => {
 
         {/* Seção Faixas */}
         <div className="max-w-6xl mx-auto mt-16 overflow-x-hidden">
-          <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
+          <h3 className="text-xl md:text-2xl font-bold text-primary mb-6 text-center tracking-wide">
             FAIXAS / TURBANTES
           </h3>
           <Carousel
